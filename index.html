@@ -1815,7 +1815,7 @@ nav.scrolled .nav-logo-image { height: 38px; width: 38px; }
     <p class="hero-subtitle">Where artificial intelligence meets human artistry — crafting content that captivates, brands that endure</p>
     <div class="hero-actions">
       <a href="#portfolio" class="btn-primary magnetic"><span>View Our Work</span>
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <!-- <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> -->
       </a>
       <a href="#cta" class="btn-secondary magnetic"><span>Start a Project</span></a>
     </div>
@@ -1945,140 +1945,78 @@ nav.scrolled .nav-logo-image { height: 38px; width: 38px; }
      ============================================ -->
 <section id="portfolio">
   <div class="container">
+
+    <!-- Keep Heading -->
     <div class="portfolio-header">
       <div class="section-label reveal">Selected Work</div>
-      <h2 class="section-title reveal reveal-delay-1">The <em>Portfolio</em></h2>
+      <h2 class="section-title reveal reveal-delay-1">
+        The <em>Portfolio</em>
+      </h2>
     </div>
 
-    <div class="bento-grid reveal">
-      <div class="bento-item bento-1 featured tilt-card">
-        <div class="bento-bg bento-bg-1"></div>
-        <div class="bento-visual">
-          <svg class="bento-svg-art" width="200" height="200" viewBox="0 0 200 200">
-            <defs>
-              <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#C9A84C"/>
-                <stop offset="100%" stop-color="#E8C97A"/>
-              </linearGradient>
-            </defs>
-            <polygon points="100,10 180,80 160,170 40,170 20,80" fill="none" stroke="url(#g1)" stroke-width="1.5"/>
-            <circle cx="100" cy="100" r="40" fill="none" stroke="url(#g1)" stroke-width="1"/>
-            <line x1="100" y1="10" x2="100" y2="190" stroke="url(#g1)" stroke-width="0.5" opacity="0.4"/>
-            <line x1="10" y1="100" x2="190" y2="100" stroke="url(#g1)" stroke-width="0.5" opacity="0.4"/>
-          </svg>
-        </div>
-        <div class="bento-arrow">
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2v8"/></svg>
-        </div>
-        <div class="bento-content">
-          <div class="bento-cat">Brand Identity</div>
-          <div class="bento-title">Aurelius Luxury — Complete Brand Overhaul</div>
-        </div>
+    <!-- Pinterest / Magnetic Layout -->
+    <div class="bento-grid reveal"
+      style="
+        column-count:3;
+        column-gap:20px;
+      ">
+
+      <!-- Video 1 -->
+      <div style="margin-bottom:20px;break-inside:avoid;">
+        <video autoplay muted loop playsinline
+          style="width:100%;height:auto;display:block;">
+          <source src="videos/video1.mp4" type="video/mp4">
+        </video>
       </div>
 
-      <div class="bento-item bento-2 tilt-card">
-        <div class="bento-bg bento-bg-2"></div>
-        <div class="bento-visual">
-          <svg class="bento-svg-art" width="120" height="120" viewBox="0 0 120 120">
-            <rect x="10" y="10" width="100" height="100" fill="none" stroke="#B8BCC8" stroke-width="1"/>
-            <rect x="25" y="25" width="70" height="70" fill="none" stroke="#B8BCC8" stroke-width="0.5" opacity="0.5"/>
-            <circle cx="60" cy="60" r="25" fill="none" stroke="#B8BCC8" stroke-width="1"/>
-          </svg>
-        </div>
-        <div class="bento-arrow">
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2v8"/></svg>
-        </div>
-        <div class="bento-content">
-          <div class="bento-cat">Social Media</div>
-          <div class="bento-title">NovaTech Content Strategy</div>
-        </div>
+      <!-- Video 2 -->
+      <div style="margin-bottom:20px;break-inside:avoid;">
+        <video autoplay muted loop playsinline
+          style="width:100%;height:auto;display:block;">
+          <source src="videos/video2.mp4" type="video/mp4">
+        </video>
       </div>
 
-      <div class="bento-item bento-3 tilt-card">
-        <div class="bento-bg bento-bg-3"></div>
-        <div class="bento-visual">
-          <svg class="bento-svg-art" width="120" height="120" viewBox="0 0 120 120">
-            <path d="M60 10L110 85H10L60 10Z" fill="none" stroke="#C9A84C" stroke-width="1.5"/>
-            <path d="M60 30L90 80H30L60 30Z" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.5"/>
-          </svg>
-        </div>
-        <div class="bento-arrow">
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2v8"/></svg>
-        </div>
-        <div class="bento-content">
-          <div class="bento-cat">Video</div>
-          <div class="bento-title">Emerald Resort Brand Film</div>
-        </div>
+      <!-- Video 3 -->
+      <div style="margin-bottom:20px;break-inside:avoid;">
+        <video autoplay muted loop playsinline
+          style="width:100%;height:auto;display:block;">
+          <source src="videos/video3.mp4" type="video/mp4">
+        </video>
       </div>
 
-      <div class="bento-item bento-4 tilt-card">
-        <div class="bento-bg bento-bg-4"></div>
-        <div class="bento-visual">
-          <svg class="bento-svg-art" width="300" height="100" viewBox="0 0 300 100">
-            <text x="20" y="70" font-family="Georgia" font-size="52" fill="none" stroke="#C9A84C" stroke-width="1" letter-spacing="8">ELEVATE</text>
-          </svg>
-        </div>
-        <div class="bento-arrow">
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2v8"/></svg>
-        </div>
-        <div class="bento-content">
-          <div class="bento-cat">Campaign</div>
-          <div class="bento-title">Meridian Watches — Elevate Campaign 360°</div>
-        </div>
+      <!-- Video 4 -->
+      <div style="margin-bottom:20px;break-inside:avoid;">
+        <video autoplay muted loop playsinline
+          style="width:100%;height:auto;display:block;">
+          <source src="videos/video4.mp4" type="video/mp4">
+        </video>
       </div>
 
-      <div class="bento-item bento-5 tilt-card">
-        <div class="bento-bg bento-bg-5"></div>
-        <div class="bento-visual">
-          <svg class="bento-svg-art" width="100" height="100" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="40" fill="none" stroke="#C9A84C" stroke-width="1"/>
-            <circle cx="50" cy="50" r="25" fill="none" stroke="#C9A84C" stroke-width="0.8" opacity="0.6"/>
-            <circle cx="50" cy="50" r="10" fill="#C9A84C" opacity="0.3"/>
-          </svg>
-        </div>
-        <div class="bento-arrow">
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2v8"/></svg>
-        </div>
-        <div class="bento-content">
-          <div class="bento-cat">Identity</div>
-          <div class="bento-title">Soleil Beauty Brand</div>
-        </div>
+      <!-- Video 5 -->
+      <div style="margin-bottom:20px;break-inside:avoid;">
+        <video autoplay muted loop playsinline
+          style="width:100%;height:auto;display:block;">
+          <source src="videos/video5.mp4" type="video/mp4">
+        </video>
       </div>
 
-      <div class="bento-item bento-6 tilt-card">
-        <div class="bento-bg bento-bg-6"></div>
-        <div class="bento-visual">
-          <svg class="bento-svg-art" width="100" height="100" viewBox="0 0 100 100">
-            <rect x="10" y="10" width="35" height="35" fill="none" stroke="#B8BCC8" stroke-width="1" transform="rotate(15 28 28)"/>
-            <rect x="55" y="55" width="35" height="35" fill="none" stroke="#B8BCC8" stroke-width="1" transform="rotate(-15 72 72)"/>
-            <line x1="50" y1="10" x2="50" y2="90" stroke="#B8BCC8" stroke-width="0.5" opacity="0.3"/>
-          </svg>
-        </div>
-        <div class="bento-arrow">
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2v8"/></svg>
-        </div>
-        <div class="bento-content">
-          <div class="bento-cat">Ads</div>
-          <div class="bento-title">Crestline Meta Ads</div>
-        </div>
+      <!-- Video 6 -->
+      <div style="margin-bottom:20px;break-inside:avoid;">
+        <video autoplay muted loop playsinline
+          style="width:100%;height:auto;display:block;">
+          <source src="videos/video6.mov" type="video/mp4">
+        </video>
       </div>
 
-      <div class="bento-item bento-7 tilt-card">
-        <div class="bento-bg bento-bg-7"></div>
-        <div class="bento-visual">
-          <svg class="bento-svg-art" width="300" height="80" viewBox="0 0 300 80">
-            <path d="M0,40 C50,10 100,70 150,40 C200,10 250,70 300,40" fill="none" stroke="#C9A84C" stroke-width="1.5"/>
-            <path d="M0,40 C50,20 100,60 150,40 C200,20 250,60 300,40" fill="none" stroke="#C9A84C" stroke-width="0.5" opacity="0.4"/>
-          </svg>
-        </div>
-        <div class="bento-arrow">
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12L12 2M12 2H4M12 2v8"/></svg>
-        </div>
-        <div class="bento-content">
-          <div class="bento-cat">Full Service</div>
-          <div class="bento-title">Vantara Lifestyle — End-to-End Creative Partnership</div>
-        </div>
+      <!-- Video 7 -->
+      <div style="margin-bottom:20px;break-inside:avoid;">
+        <video autoplay muted loop playsinline
+          style="width:100%;height:auto;display:block;">
+          <source src="videos/video7.mp4" type="video/mp4">
+        </video>
       </div>
+
     </div>
   </div>
 </section>
@@ -2202,7 +2140,7 @@ nav.scrolled .nav-logo-image { height: 38px; width: 38px; }
     </div>
 
     <div class="pricing-grid">
-      <div class="pricing-card reveal tilt-card">
+      <!-- <div class="pricing-card reveal tilt-card">
         <div class="pricing-tier">Starter</div>
         <div class="pricing-price"><sup>₹</sup>24,999</div>
         <div class="pricing-period">per month</div>
@@ -2265,7 +2203,7 @@ nav.scrolled .nav-logo-image { height: 38px; width: 38px; }
           </li>
         </ul>
         <a href="#cta" class="pricing-btn">Scale Now</a>
-      </div>
+      </div> -->
 
       <div class="pricing-card reveal reveal-delay-4 tilt-card">
         <div class="pricing-tier">Enterprise</div>
