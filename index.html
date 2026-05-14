@@ -2032,60 +2032,61 @@ nav.scrolled .nav-logo-image { height: 38px; width: 38px; }
     </div>
 
     <div class="ba-grid">
-      <div class="ba-visual reveal">
-        <div class="ba-slider-container" id="ba-slider">
-          <div class="ba-before">
-            <svg width="200" height="200" viewBox="0 0 200 200" opacity="0.15">
-              <rect x="20" y="60" width="160" height="20" fill="#fff"/>
-              <rect x="20" y="90" width="120" height="10" fill="#fff"/>
-              <rect x="20" y="110" width="140" height="10" fill="#fff"/>
-              <rect x="20" y="140" width="80" height="30" rx="2" fill="#fff"/>
-            </svg>
-          </div>
-          <div class="ba-after" id="ba-after-panel">
-            <svg width="200" height="200" viewBox="0 0 200 200" opacity="0.4">
-              <defs><linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#C9A84C"/><stop offset="100%" stop-color="#E8C97A"/></linearGradient></defs>
-              <rect x="20" y="60" width="160" height="20" fill="url(#bg2)" rx="2"/>
-              <rect x="20" y="90" width="120" height="8" fill="url(#bg2)" rx="1" opacity="0.6"/>
-              <rect x="20" y="108" width="140" height="8" fill="url(#bg2)" rx="1" opacity="0.6"/>
-              <rect x="20" y="140" width="80" height="30" rx="4" fill="url(#bg2)"/>
-              <circle cx="160" cy="50" r="20" fill="url(#bg2)" opacity="0.3"/>
-            </svg>
-          </div>
-          <div class="ba-divider" id="ba-divider"></div>
-          <div class="ba-handle" id="ba-handle">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#000" stroke-width="2">
-              <path d="M7 4l-4 6 4 6M13 4l4 6-4 6"/>
-            </svg>
-          </div>
-        </div>
+
+  <div class="ba-visual reveal">
+    <div class="ba-slider-container" id="ba-slider">
+
+      <!-- Before Image -->
+      <div class="ba-before">
+        <img src="images/before.jpeg"
+          style="width:100%;height:100%;object-fit:cover;display:block;">
       </div>
 
-      <div class="ba-content reveal reveal-delay-2">
-        <div class="section-label">Our Impact</div>
-        <h3 style="font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:300;color:var(--white);line-height:1.3;margin-bottom:20px;">From <em style="color:var(--gold)">ordinary</em> to <em style="color:var(--gold)">unforgettable</em></h3>
-        <p style="font-size:0.9rem;line-height:1.8;color:var(--text-mid);">We take existing brands and content strategies and transform them with AI-powered precision. The results speak clearly — higher engagement, sharper identity, measurable growth.</p>
-
-        <div class="ba-stats">
-          <div class="ba-stat">
-            <div class="ba-stat-num scramble-target" data-value="340">340%</div>
-            <div class="ba-stat-label">Average engagement increase</div>
-          </div>
-          <div class="ba-stat">
-            <div class="ba-stat-num scramble-target" data-value="12">12×</div>
-            <div class="ba-stat-label">Content output multiplier</div>
-          </div>
-          <div class="ba-stat">
-            <div class="ba-stat-num scramble-target" data-value="89">89%</div>
-            <div class="ba-stat-label">Client retention rate</div>
-          </div>
-          <div class="ba-stat">
-            <div class="ba-stat-num scramble-target" data-value="48">48hr</div>
-            <div class="ba-stat-label">Average turnaround</div>
-          </div>
-        </div>
+      <!-- After Image -->
+      <div class="ba-after" id="ba-after-panel">
+        <img src="images/after.jpeg"
+          style="width:100%;height:100%;object-fit:cover;display:block;">
       </div>
+
+      <!-- Divider -->
+      <div class="ba-divider" id="ba-divider"></div>
+
+      <!-- Handle -->
+      <div class="ba-handle" id="ba-handle">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#000" stroke-width="2">
+          <path d="M7 4l-4 6 4 6M13 4l4 6-4 6"/>
+        </svg>
+      </div>
+
     </div>
+  </div>
+
+  <div class="ba-content reveal reveal-delay-2">
+    <div class="section-label">Our Impact</div>
+
+    <h3 style="
+      font-family:'Cormorant Garamond',serif;
+      font-size:2rem;
+      font-weight:300;
+      color:var(--white);
+      line-height:1.3;
+      margin-bottom:20px;
+    ">
+      From <em style="color:var(--gold)">ordinary</em>
+      to <em style="color:var(--gold)">unforgettable</em>
+    </h3>
+
+    <p style="
+      font-size:0.9rem;
+      line-height:1.8;
+      color:var(--text-mid);
+    ">
+      We take existing brands and content strategies and transform them with AI-powered precision. The results speak clearly — higher engagement, sharper identity, measurable growth.
+    </p>
+
+  </div>
+
+</div>
   </div>
 </section>
 
